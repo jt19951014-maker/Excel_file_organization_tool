@@ -32,6 +32,11 @@
 ## 使い方
 ### 1. リポジトリをクローン
 ```bash
-git clone https://github.com/jt19951014-maker/excel-file-organizer.git  /jt19951014-maker/weather-scraping-yahoo.git
-cd weather-scraping-yahoo
+git clone https://github.com/jt19951014-maker/Excel_file_organization_tool.git
+cd Excel_file_organization_tool
+```
+
+### 2. スクリプトを実行
+```bash
+python src/weather_scraping.py
 ```
