@@ -29,3 +29,9 @@
 ![Run Demo](image/After3.png)
 ![Run Demo](image/After4.png)
 
+## 使い方
+### 1. リポジトリをクローン
+```bash
+git clone https://github.com/jt19951014-maker/excel-file-organizer.git  /jt19951014-maker/weather-scraping-yahoo.git
+cd weather-scraping-yahoo
+```
