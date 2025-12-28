@@ -1,0 +1,2 @@
+# Excel_file_organization_tool
+命名規則に従ったファイル名を持つエクセルファイルのフォルダ分けを行うツール
