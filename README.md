@@ -22,5 +22,6 @@
 - スクリプトを実行するだけで
 - 命名規則に基づいたフォルダ階層が自動生成され
 - ファイルが整理される
-![Run Demo](image/VS Code実行画面1.png)
+- 
+![Run Demo](image/VSCode実行画面1.png)
 
