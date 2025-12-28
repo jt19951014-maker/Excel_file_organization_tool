@@ -35,8 +35,36 @@
 git clone https://github.com/jt19951014-maker/Excel_file_organization_tool.git
 cd Excel_file_organization_tool
 ```
+### 2. フォルダ構成を準備
 
-### 2. スクリプトを実行
+スクリプト実行前に、  
+整理したいExcelファイルを格納する 「資料」 フォルダを  
+実行環境と同じ階層に用意してください。
 ```bash
-python src/weather_scraping.py
+(例)
+Excel_file_organization_tool/
+├─ src/
+│  └─ file_organizer2.py
+├─ 資料/
+   └─ 【ソフトA】_案件a_外部設計_ログイン.xlsx
 ```
+### 3. スクリプトを実行
+```bash
+python src/file_organizer2.py
+```
+### 4. 出力結果の確認
+実行後、「資料」フォルダ配下に
+ソフト名／案件名／工程名ごとのフォルダが自動生成され、
+Excelファイルが整理されます。
+
+## 特徴
+・命名規則に基づくファイル名の解析
+・フォルダ階層の自動生成
+・Excelファイルの自動振り分け
+・業務での利用を想定したシンプルな構成
+
+## 使用技術
+・Python 3.12
+・os
+・shutil
+
