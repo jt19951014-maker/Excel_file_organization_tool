@@ -68,3 +68,25 @@ Excelファイルが整理されます。
 ・os
 ・shutil
 
+## 構成
+```bash
+Excel_file_orgamization_tool/
+├─ src/
+│   └─ file_organizer2.py
+├─ 資料/
+│   └─ 【ソフトA】案件a_外部設計_ログイン.xlsx
+└─ README.md
+※資料フォルダは使用前に用意する必要あり
+```
+
+## 今後の拡張予定
+・命名規則違反ファイルの検知
+・dry-run モードの追加
+・copy / move 切り替え機能
+・CLI引数対応
+・logging対応
+
+## Lisence
+MIT Lisence
+・shutil
+
