@@ -58,15 +58,19 @@ python src/file_organizer2.py
 Excelファイルが整理されます。
 
 ## 特徴
+```bash
 ・命名規則に基づくファイル名の解析
 ・フォルダ階層の自動生成
 ・Excelファイルの自動振り分け
 ・業務での利用を想定したシンプルな構成
+```
 
 ## 使用技術
+```bash
 ・Python 3.12
 ・os
 ・shutil
+```
 
 ## 構成
 ```bash
@@ -80,13 +84,14 @@ Excel_file_orgamization_tool/
 ```
 
 ## 今後の拡張予定
+```bash
 ・命名規則違反ファイルの検知
 ・dry-run モードの追加
 ・copy / move 切り替え機能
 ・CLI引数対応
 ・logging対応
+```
 
 ## Lisence
 MIT Lisence
-・shutil
 
